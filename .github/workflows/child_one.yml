@@ -22,4 +22,4 @@ jobs:
       - name: Run a child one workflow
         run: echo Child one want to call her root!
   useWorkflowRoot:
-    uses: Thierno-kub/generics_workflows1/blob/main/.github/workflows/root_pipeline.yml
+    uses: Thierno-kub/generics_workflows1/.github/workflows/root_pipeline.yml@main
