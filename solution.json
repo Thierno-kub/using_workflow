@@ -1,0 +1,6 @@
+[
+    { "path": "src/app1", "language": "python" },
+    { "path": "src/app2", "language": "java" },
+    { "path": "src/app3", "language": "go" }
+]
+  

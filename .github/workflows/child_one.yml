@@ -23,3 +23,7 @@ jobs:
         run: echo Child one want to call her root!
   useWorkflowRoot:
     uses: Thierno-kub/generics_workflows1/.github/workflows/root_pipeline.yml@main
+  useexplorerworkflow:
+    uses: /KUBA-ENG-Platform/refactored-workflow-kuba-contract/.github/workflows/explorer.yml@main
+    with:
+      solutions_file: ./solution.json
